@@ -1,0 +1,6 @@
+@Bloodank_HostAddress = http://localhost:5122
+
+GET {{Bloodank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

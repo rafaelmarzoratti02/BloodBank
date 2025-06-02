@@ -1,0 +1,17 @@
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\bin\Debug\net8.0\BloodBank.Infrastructure.deps.json
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\bin\Debug\net8.0\BloodBank.Infrastructure.runtimeconfig.json
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\bin\Debug\net8.0\BloodBank.Infrastructure.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\bin\Debug\net8.0\BloodBank.Infrastructure.pdb
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\bin\Debug\net8.0\BloodBank.Core.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\bin\Debug\net8.0\BloodBank.Core.pdb
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.AssemblyInfo.cs
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBan.38EFFFF6.Up2Date
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\refint\BloodBank.Infrastructure.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.pdb
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.genruntimeconfig.cache
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\ref\BloodBank.Infrastructure.dll

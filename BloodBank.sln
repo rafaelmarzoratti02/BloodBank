@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.API", "BloodBank.API\BloodBank.API.csproj", "{30A15E4A-DF1B-490F-800E-F957A59617B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Application", "BloodBank.Application\BloodBank.Application.csproj", "{AE0339A1-B97A-460B-81BD-E0E5DEF101D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Core", "BloodBank.Core\BloodBank.Core.csproj", "{989E6202-5F3A-46FB-9C42-D05E292AF107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Infrastructure", "BloodBank.Infrastructure\BloodBank.Infrastructure.csproj", "{1CBBF6FF-C318-4065-A428-627A299D9C86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30A15E4A-DF1B-490F-800E-F957A59617B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A15E4A-DF1B-490F-800E-F957A59617B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A15E4A-DF1B-490F-800E-F957A59617B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A15E4A-DF1B-490F-800E-F957A59617B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0339A1-B97A-460B-81BD-E0E5DEF101D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0339A1-B97A-460B-81BD-E0E5DEF101D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0339A1-B97A-460B-81BD-E0E5DEF101D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0339A1-B97A-460B-81BD-E0E5DEF101D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989E6202-5F3A-46FB-9C42-D05E292AF107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989E6202-5F3A-46FB-9C42-D05E292AF107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989E6202-5F3A-46FB-9C42-D05E292AF107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989E6202-5F3A-46FB-9C42-D05E292AF107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBBF6FF-C318-4065-A428-627A299D9C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBBF6FF-C318-4065-A428-627A299D9C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBBF6FF-C318-4065-A428-627A299D9C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBBF6FF-C318-4065-A428-627A299D9C86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Application.deps.json
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Application.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Application.pdb
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.AssemblyInfoInputs.cache
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.AssemblyInfo.cs
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.csproj.CoreCompileInputs.cache
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\refint\BloodBank.Application.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.pdb
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\ref\BloodBank.Application.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.csproj.AssemblyReference.cache
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Core.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Core.pdb
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBan.51D49F74.Up2Date

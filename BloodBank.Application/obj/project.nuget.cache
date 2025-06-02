@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4d5T/7AINL0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Devztti\\RiderProjects\\Bloodank\\BloodBank.Application\\BloodBank.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Devztti\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

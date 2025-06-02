@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BloodBank.Core/1.0.0": {
+        "runtime": {
+          "BloodBank.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BloodBank.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
