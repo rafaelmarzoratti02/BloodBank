@@ -1,17 +1,31 @@
 ﻿using BloodBank.Application.Models.EstoqueSangueModels;
 using BloodBank.Core.Entities;
+using BloodBank.Core.Repositories;
 
 namespace BloodBank.Application.Services;
 
 public class EstoqueSangueService : IEstoqueSangueService
 {
-    public Task<EstoqueSangueViewModel> GetAll()
+    
+    private readonly IEstoqueSangueRepository _repository;
+
+    public EstoqueSangueService(IEstoqueSangueRepository repository)
     {
-        throw new NotImplementedException();
+        _repository = repository;
     }
 
-    public Task AdicionaEstoque(Doacao doacaoSangue)
+    public async  Task<List<EstoqueSangueViewModel>> GetAll()
+    {
+        var result = await _repository.GetAll();
+        
+        var model = result.Select(x=> EstoqueSangueViewModel.FromEntity(x)).ToList();
+        
+        return model;
+    }
+
+    public Task AddEstoque(Doacao doacaoSangue)
     {
         throw new NotImplementedException();
     }
+    
 }

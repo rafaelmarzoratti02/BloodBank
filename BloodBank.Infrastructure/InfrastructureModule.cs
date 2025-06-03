@@ -26,6 +26,8 @@ public static class InfrastructureModule
     public static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IDoadorRepository, DoadorRepository>();
+        services.AddScoped<IEstoqueSangueRepository, EstoqueSangueRepository>();
+
         return services;
     } 
 }
