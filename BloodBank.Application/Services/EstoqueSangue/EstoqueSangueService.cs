@@ -1,4 +1,5 @@
-﻿using BloodBank.Application.Models.EstoqueSangueModels;
+﻿using BloodBank.Application.Models;
+using BloodBank.Application.Models.EstoqueSangueModels;
 using BloodBank.Core.Entities;
 using BloodBank.Core.Repositories;
 
@@ -14,18 +15,24 @@ public class EstoqueSangueService : IEstoqueSangueService
         _repository = repository;
     }
 
-    public async  Task<List<EstoqueSangueViewModel>> GetAll()
+    public async  Task<ResultViewModel<List<EstoqueSangueViewModel>>> GetAll()
     {
         var result = await _repository.GetAll();
         
         var model = result.Select(x=> EstoqueSangueViewModel.FromEntity(x)).ToList();
-        
-        return model;
+        return ResultViewModel<List<EstoqueSangueViewModel>>.Sucess(model);
     }
 
-    public Task AddEstoque(Doacao doacaoSangue)
+    public async Task<ResultViewModel> AddEstoque(Doacao doacaoSangue, string tipoSanguineo, string fatorRH)
     {
-        throw new NotImplementedException();
+        var estoque = await _repository.GetByTipoAndRH(tipoSanguineo, fatorRH);
+        if (estoque is null)
+        {
+            return ResultViewModel.Error("Nenhum estoque encontrado");
+        }
+        estoque.QuantidadeML += doacaoSangue.QuantidadeML;
+        await _repository.Update(estoque);
+        return ResultViewModel.Sucess("Quantidade adicionada ao estoque");
     }
     
 }
