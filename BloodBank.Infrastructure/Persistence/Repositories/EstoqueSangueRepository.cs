@@ -1,5 +1,6 @@
 ﻿using BloodBank.Core.Entities;
 using BloodBank.Core.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace BloodBank.Infrastructure.Persistence.Repositories;
 
@@ -13,13 +14,21 @@ public class EstoqueSangueRepository : IEstoqueSangueRepository
         _context = context;
     }
 
-    public Task<List<EstoqueSangue>> GetAll()
+    public async  Task<List<EstoqueSangue>> GetAll()
     {
-       var  result = await _context.EstoqueSangues.
+        var result =  await _context.EstoqueSange.Where(d=> !d.IsDeleted).ToListAsync();
+        
+        return result;
     }
 
-    public Task Update(EstoqueSangue doacaoSangue)
+    public async Task Update(EstoqueSangue doacaoSangue)
     {
-        throw new NotImplementedException();
+        _context.Update(doacaoSangue);
+        await _context.SaveChangesAsync();
+    }
+
+    public Task<bool> Exists(int id)
+    {
+       return  _context.EstoqueSange.AnyAsync(e => e.Id == id);
     }
 }

@@ -13,3 +13,4 @@ C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\B
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Core.dll
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Core.pdb
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBan.51D49F74.Up2Date
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.sourcelink.json

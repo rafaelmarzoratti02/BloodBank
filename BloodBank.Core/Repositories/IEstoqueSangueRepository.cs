@@ -6,4 +6,5 @@ public interface IEstoqueSangueRepository
 {
     Task<List<EstoqueSangue>> GetAll();
     Task Update(EstoqueSangue doacaoSangue);
+    Task<bool> Exists(int id);
 }

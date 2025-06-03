@@ -9,3 +9,4 @@ C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Core\obj\Debug\net8.0\BloodBan
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Core\obj\Debug\net8.0\refint\BloodBank.Core.dll
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Core\obj\Debug\net8.0\BloodBank.Core.pdb
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Core\obj\Debug\net8.0\ref\BloodBank.Core.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Core\obj\Debug\net8.0\BloodBank.Core.sourcelink.json

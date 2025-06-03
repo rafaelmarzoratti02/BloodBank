@@ -172,3 +172,4 @@ C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.API\bin\Debug\net8.0\zh-Hans\M
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.API\bin\Debug\net8.0\BloodBank.Application.dll
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.API\bin\Debug\net8.0\BloodBank.Application.pdb
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.API\obj\Debug\net8.0\BloodBank.API.sourcelink.json

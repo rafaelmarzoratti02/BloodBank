@@ -15,3 +15,4 @@ C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.pdb
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.genruntimeconfig.cache
 C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\ref\BloodBank.Infrastructure.dll
+C:\Users\Devztti\RiderProjects\Bloodank\BloodBank.Infrastructure\obj\Debug\net8.0\BloodBank.Infrastructure.sourcelink.json

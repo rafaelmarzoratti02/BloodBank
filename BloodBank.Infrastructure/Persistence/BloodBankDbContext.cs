@@ -32,6 +32,11 @@ public class BloodBankDbContext : DbContext
                 .HasForeignKey<Doador>(x=> x.EnderecoId)
                 .OnDelete(DeleteBehavior.Cascade);
         });
+
+        builder.Entity<EstoqueSangue>(d =>
+        {
+            d.HasKey(d => d.Id);
+        });
         base.OnModelCreating(builder);
     }
 }
