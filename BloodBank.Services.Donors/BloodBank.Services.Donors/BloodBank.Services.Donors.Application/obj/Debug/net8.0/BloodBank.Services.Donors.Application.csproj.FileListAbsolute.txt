@@ -1,0 +1,16 @@
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\bin\Debug\net8.0\BloodBank.Services.Donors.Application.deps.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\bin\Debug\net8.0\BloodBank.Services.Donors.Application.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\bin\Debug\net8.0\BloodBank.Services.Donors.Application.pdb
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.csproj.AssemblyReference.cache
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.AssemblyInfoInputs.cache
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.AssemblyInfo.cs
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.csproj.CoreCompileInputs.cache
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.sourcelink.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\refint\BloodBank.Services.Donors.Application.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBank.Services.Donors.Application.pdb
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\ref\BloodBank.Services.Donors.Application.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\bin\Debug\net8.0\BloodBank.Services.Donors.Core.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\bin\Debug\net8.0\BloodBank.Services.Donors.Core.pdb
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Application\obj\Debug\net8.0\BloodBan.FC821084.Up2Date

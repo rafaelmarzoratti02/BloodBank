@@ -1,0 +1,12 @@
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\bin\Debug\net8.0\BloodBank.Services.Donors.Core.deps.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\bin\Debug\net8.0\BloodBank.Services.Donors.Core.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\bin\Debug\net8.0\BloodBank.Services.Donors.Core.pdb
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\BloodBank.Services.Donors.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\BloodBank.Services.Donors.Core.AssemblyInfoInputs.cache
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\BloodBank.Services.Donors.Core.AssemblyInfo.cs
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\BloodBank.Services.Donors.Core.csproj.CoreCompileInputs.cache
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\BloodBank.Services.Donors.Core.sourcelink.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\BloodBank.Services.Donors.Core.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\refint\BloodBank.Services.Donors.Core.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\BloodBank.Services.Donors.Core.pdb
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.Core\obj\Debug\net8.0\ref\BloodBank.Services.Donors.Core.dll

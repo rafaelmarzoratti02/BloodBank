@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>BloodBank.Services.Donors</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BloodBank.Services.Donors.Application\BloodBank.Services.Donors.Application.csproj" />
+      <ProjectReference Include="..\BloodBank.Services.Donors.Infra\BloodBank.Services.Donors.Infra.csproj" />
+    </ItemGroup>
+
+</Project>
