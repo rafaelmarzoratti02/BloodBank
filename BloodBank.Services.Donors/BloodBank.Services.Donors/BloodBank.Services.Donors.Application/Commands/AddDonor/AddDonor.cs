@@ -25,15 +25,12 @@ public class AddDonor :IRequest<Guid>
     public DateTime Birthdate { get; set; }
     public double Weight { get; set; }
     public int BloodType { get; set; }
-    public BloodType BloodTypeEnum => (BloodType)BloodType;
     public int RhFactor { get; set; }
-    
-    public RhFactor RhFactorEnum => (RhFactor)RhFactor;
     public AddressInputModel Address { get; set; }
 
     public Donor ToEntity()
     {
-        return new Donor(Fullname, Email, Birthdate, Weight, BloodTypeEnum, RhFactorEnum,
+        return new Donor(Fullname, Email, Birthdate, Weight, (BloodType)BloodType, (RhFactor)RhFactor,
             new Address(Address.Street, Address.Number, Address.City, Address.State, Address.ZipCode)
         );
     }

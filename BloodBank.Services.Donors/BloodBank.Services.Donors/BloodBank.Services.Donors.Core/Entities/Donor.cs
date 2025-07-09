@@ -1,9 +1,10 @@
 ﻿using BloodBank.Services.Donors.Core.Enums;
+using BloodBank.Services.Donors.Core.Events;
 using BloodBank.Services.Donors.Core.ValueObjects;
 
 namespace BloodBank.Services.Donors.Core;
 
-public class Donor : BaseEntity
+public class Donor : AggregateRoot 
 {
     public Donor(string fullname, string email, DateTime birthdate, double peso, BloodType bloodtype,
         RhFactor rhFactor, Address address): base()
@@ -15,6 +16,8 @@ public class Donor : BaseEntity
         BloodType = bloodtype;
         RhFactor = rhFactor;
         Address = address;
+        
+        AddEvent(new DonorCreated(Id, Fullname, Email));
     }
     
     public string Fullname { get; set; }

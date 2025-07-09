@@ -18,6 +18,11 @@ public class AddDonorHandler : IRequestHandler<AddDonor, Guid>
         
         await _donorRepository.AddAsync(donor);
         
+        foreach(var @event in donor.Events)
+        {
+            Console.WriteLine(@event.GetType().Name.ToDashCase());
+        }
+        
         return donor.Id;
     }
 }

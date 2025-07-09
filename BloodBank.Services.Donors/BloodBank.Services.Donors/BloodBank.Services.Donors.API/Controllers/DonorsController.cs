@@ -1,4 +1,6 @@
 ﻿using BloodBank.Services.Donors.Application.Commands;
+using BloodBank.Services.Donors.Application.Queries.Donor;
+using BloodBank.Services.Donors.Application.ViewModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,6 +15,15 @@ public class DonorsController
     public DonorsController(IMediator mediator)
     {
         _mediator = mediator;
+    }
+    
+    [HttpGet("{id}")]
+    public async Task<DonorViewModel> GetDonorById(Guid id)
+    {
+        var query = new GetDonorById(id);
+        var result = await _mediator.Send(query);
+        
+        return result;
     }
 
     [HttpPost]
