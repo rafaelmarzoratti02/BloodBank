@@ -13,6 +13,9 @@ namespace BloodBank.Services.Donors.Infra;
 public static class Extensions
 {
     public static IServiceCollection AddMongo(this IServiceCollection services) {
+        
+        BsonSerializer.RegisterSerializer(new GuidSerializer(GuidRepresentation.Standard));
+        
         services.AddSingleton(sp => {
             var configuration = sp.GetService<IConfiguration>();
             var options = new MongoDbOptions();
@@ -30,8 +33,7 @@ public static class Extensions
 
         services.AddTransient(sp =>
         {
-            BsonSerializer.RegisterSerializer(new GuidSerializer(GuidRepresentation.Standard));
-
+            
             var options = sp.GetService<MongoDbOptions>();
             var mongoClient = sp.GetService<IMongoClient>();
 
