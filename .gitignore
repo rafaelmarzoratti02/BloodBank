@@ -1,0 +1,14 @@
+# Pasta de logs
+.log
+
+# Pasta de dependências
+node_modules
+
+# Build files
+build
+
+# Arquivos de ambiente
+.env
+
+# Arquivos temporários
+.tmp
