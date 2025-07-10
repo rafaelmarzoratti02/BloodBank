@@ -8,21 +8,22 @@ namespace BloodBank.Services.Donors.Application.Commands;
 
 public class AddDonor :IRequest<Guid>
 {
-    public AddDonor(string fullname, string email, DateTime birthdate, double weight, int bloodtype,
-        int rhFactor, AddressInputModel address): base()
+    public AddDonor(string fullname, string email, DateTime birthdate, int gender, double weight, int bloodType, int rhFactor, AddressInputModel address)
     {
         Fullname = fullname;
         Email = email;
         Birthdate = birthdate;
+        Gender = gender;
         Weight = weight;
-        BloodType = bloodtype;
+        BloodType = bloodType;
         RhFactor = rhFactor;
         Address = address;
     }
-    
+
     public string Fullname { get; set; }
     public string Email { get; set; }
     public DateTime Birthdate { get; set; }
+    public int Gender { get; set; }
     public double Weight { get; set; }
     public int BloodType { get; set; }
     public int RhFactor { get; set; }
@@ -30,7 +31,7 @@ public class AddDonor :IRequest<Guid>
 
     public Donor ToEntity()
     {
-        return new Donor(Fullname, Email, Birthdate, Weight, (BloodType)BloodType, (RhFactor)RhFactor,
+        return new Donor(Fullname, Email, Birthdate, (Gender)Gender, Weight, (BloodType)BloodType, (RhFactor)RhFactor,
             new Address(Address.Street, Address.Number, Address.City, Address.State, Address.ZipCode)
         );
     }
