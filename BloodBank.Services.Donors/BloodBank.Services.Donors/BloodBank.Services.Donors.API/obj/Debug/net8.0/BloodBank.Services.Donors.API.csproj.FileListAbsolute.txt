@@ -55,3 +55,6 @@ C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Serv
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\BloodBank.Services.Donors.Application.dll
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\BloodBank.Services.Donors.Application.pdb
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

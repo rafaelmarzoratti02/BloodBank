@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FvZMH/xwm4w=",
+  "dgSpecHash": "5fw14+x4LiA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donors\\BloodBank.Services.Donors\\BloodBank.Services.Donors.Application\\BloodBank.Services.Donors.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Devztti\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\Devztti\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "C:\\Users\\Devztti\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\Devztti\\.nuget\\packages\\mediatr\\13.0.0\\mediatr.13.0.0.nupkg.sha512",
     "C:\\Users\\Devztti\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Devztti\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",

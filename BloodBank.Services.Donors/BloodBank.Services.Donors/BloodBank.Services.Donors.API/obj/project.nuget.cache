@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/iq4OYNcigo=",
+  "dgSpecHash": "7QrU0Wytm4k=",
   "success": true,
   "projectFilePath": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donors\\BloodBank.Services.Donors\\BloodBank.Services.Donors.API\\BloodBank.Services.Donors.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Devztti\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Devztti\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\Devztti\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "C:\\Users\\Devztti\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\Devztti\\.nuget\\packages\\mediatr\\13.0.0\\mediatr.13.0.0.nupkg.sha512",
     "C:\\Users\\Devztti\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Devztti\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
