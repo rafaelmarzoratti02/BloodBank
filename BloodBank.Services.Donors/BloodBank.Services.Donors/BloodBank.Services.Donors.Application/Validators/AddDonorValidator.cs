@@ -1,4 +1,5 @@
 ﻿using BloodBank.Services.Donors.Application.Commands;
+using BloodBank.Services.Donors.Core.Repositories;
 using FluentValidation;
 
 namespace BloodBank.Services.Donors.Application.Validators;
@@ -26,7 +27,7 @@ public class AddDonorValidator : AbstractValidator<AddDonor>
         {
             age--;
         }
-        
+    
         return age >= 18;
     }
 }

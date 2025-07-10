@@ -1,4 +1,5 @@
 ﻿using BloodBank.Services.Donors.Application.InputModels;
+using BloodBank.Services.Donors.Application.ViewModels;
 using BloodBank.Services.Donors.Core;
 using BloodBank.Services.Donors.Core.Enums;
 using BloodBank.Services.Donors.Core.ValueObjects;
@@ -6,7 +7,7 @@ using MediatR;
 
 namespace BloodBank.Services.Donors.Application.Commands;
 
-public class AddDonor :IRequest<Guid>
+public class AddDonor :IRequest<ResultViewModel<Guid>>
 {
     public AddDonor(string fullname, string email, DateTime birthdate, int gender, double weight, int bloodType, int rhFactor, AddressInputModel address)
     {

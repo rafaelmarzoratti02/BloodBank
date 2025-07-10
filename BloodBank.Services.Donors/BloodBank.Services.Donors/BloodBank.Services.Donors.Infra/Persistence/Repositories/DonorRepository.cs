@@ -27,4 +27,10 @@ public class DonorRepository : IDonorRepository
     {
        await _collection.ReplaceOneAsync(x => x.Id == donor.Id, donor);
     }
+
+    public async Task<bool> EmailExistsAsync(string email)
+    {
+        var filter = Builders<Donor>.Filter.Eq(x => x.Email, email);
+        return await _collection.Find(filter).AnyAsync();
+    }
 }

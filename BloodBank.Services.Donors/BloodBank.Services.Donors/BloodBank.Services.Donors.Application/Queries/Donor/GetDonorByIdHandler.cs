@@ -4,7 +4,7 @@ using MediatR;
 
 namespace BloodBank.Services.Donors.Application.Queries.Donor;
 
-public class GetDonorByIdHandler : IRequestHandler<GetDonorById, DonorViewModel>
+public class GetDonorByIdHandler : IRequestHandler<GetDonorById, ResultViewModel<DonorViewModel>>
 {
     private readonly IDonorRepository _donorRepository;
 
@@ -13,11 +13,13 @@ public class GetDonorByIdHandler : IRequestHandler<GetDonorById, DonorViewModel>
         _donorRepository = donorRepository;
     }
 
-    public async Task<DonorViewModel> Handle(GetDonorById request, CancellationToken cancellationToken)
+    public async Task<ResultViewModel<DonorViewModel>> Handle(GetDonorById request, CancellationToken cancellationToken)
     {
         var result = await _donorRepository.GetByIdAsync(request.Guid);
+        if(result is null) return ResultViewModel<DonorViewModel>.Error("Donor not found");
+        
         var model = DonorViewModel.FromEntity(result);
         
-        return model;
+        return ResultViewModel<DonorViewModel>.Sucess(model);
     }
 }

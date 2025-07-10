@@ -1,9 +1,10 @@
-﻿using BloodBank.Services.Donors.Core.Repositories;
+﻿using BloodBank.Services.Donors.Application.ViewModels;
+using BloodBank.Services.Donors.Core.Repositories;
 using MediatR;
 
 namespace BloodBank.Services.Donors.Application.Commands;
 
-public class AddDonorHandler : IRequestHandler<AddDonor, Guid>
+public class AddDonorHandler : IRequestHandler<AddDonor, ResultViewModel<Guid>>
 {
     private readonly IDonorRepository  _donorRepository;
 
@@ -12,9 +13,12 @@ public class AddDonorHandler : IRequestHandler<AddDonor, Guid>
         _donorRepository = donorRepository;
     }
 
-    public async Task<Guid> Handle(AddDonor request, CancellationToken cancellationToken)
+    public async Task<ResultViewModel<Guid>> Handle(AddDonor request, CancellationToken cancellationToken)
     {
         var donor = request.ToEntity();
+        
+        var emailExists = await _donorRepository.EmailExistsAsync(donor.Email);
+        if (emailExists) return ResultViewModel<Guid>.Error("Email is already registered.");
         
         await _donorRepository.AddAsync(donor);
         
@@ -23,6 +27,6 @@ public class AddDonorHandler : IRequestHandler<AddDonor, Guid>
             Console.WriteLine(@event.GetType().Name.ToDashCase());
         }
         
-        return donor.Id;
+        return ResultViewModel<Guid>.Sucess(donor.Id);
     }
 }

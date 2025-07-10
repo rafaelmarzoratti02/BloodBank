@@ -3,7 +3,7 @@ using MediatR;
 
 namespace BloodBank.Services.Donors.Application.Queries.Donor;
 
-public class GetDonorById : IRequest<DonorViewModel>
+public class GetDonorById : IRequest<ResultViewModel<DonorViewModel>>
 {
     public GetDonorById(Guid guid)
     {

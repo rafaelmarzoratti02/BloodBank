@@ -5,4 +5,5 @@ public interface IDonorRepository
     Task<Donor> GetByIdAsync(Guid id);
     Task AddAsync(Donor donor);
     Task UpdateAsync(Donor donor);
+    Task<bool> EmailExistsAsync(string email);
 }
