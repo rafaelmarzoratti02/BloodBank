@@ -6,4 +6,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.7" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.7" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.7" />
+      <PackageReference Include="MongoDB.Bson" Version="3.4.0" />
+      <PackageReference Include="MongoDB.Driver" Version="3.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BloodBank.Services.Donations.Core\BloodBank.Services.Donations.Core.csproj" />
+    </ItemGroup>
+
 </Project>
