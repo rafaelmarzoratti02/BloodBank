@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{046CE10C-2DB6-41C0-9B2F-B628DC60B4BA}|BloodBank.Services.Donations\\BloodBank.Services.Donations.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046CE10C-2DB6-41C0-9B2F-B628DC60B4BA}|BloodBank.Services.Donations\\BloodBank.Services.Donations.csproj|solutionrelative:bloodbank.services.donations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\Program.cs",
-              "RelativeDocumentMoniker": "BloodBank.Services.Donations\\Program.cs",
-              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\Program.cs",
-              "RelativeToolTip": "BloodBank.Services.Donations\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T04:01:11.865Z",
-              "EditorCaption": ""
             }
           ]
         }
