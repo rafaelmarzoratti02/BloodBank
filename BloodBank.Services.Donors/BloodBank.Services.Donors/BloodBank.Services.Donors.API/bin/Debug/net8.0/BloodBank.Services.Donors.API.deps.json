@@ -328,7 +328,7 @@
         },
         "runtime": {
           "BloodBank.Services.Donors.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -336,7 +336,7 @@
       "BloodBank.Services.Donors.Core/1.0.0": {
         "runtime": {
           "BloodBank.Services.Donors.Core.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -353,7 +353,7 @@
         },
         "runtime": {
           "BloodBank.Services.Donors.Infra.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

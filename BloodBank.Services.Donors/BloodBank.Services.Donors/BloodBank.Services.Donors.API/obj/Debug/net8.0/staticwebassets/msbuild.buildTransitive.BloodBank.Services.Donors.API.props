@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\BloodBank.Services.Donors.API.props" />
-</Project>

@@ -35,11 +35,6 @@ C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Serv
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\BloodBank.Services.Donors.API.sourcelink.json
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets\msbuild.BloodBank.Services.Donors.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets\msbuild.build.BloodBank.Services.Donors.API.props
-C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BloodBank.Services.Donors.API.props
-C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BloodBank.Services.Donors.API.props
-C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\scopedcss\bundle\BloodBank.Services.Donors.API.styles.css
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\BloodBan.B6F8EC5D.Up2Date
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\BloodBank.Services.Donors.API.dll
@@ -58,3 +53,11 @@ C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Serv
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\BloodBank.Services.Donors.API.staticwebassets.endpoints.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

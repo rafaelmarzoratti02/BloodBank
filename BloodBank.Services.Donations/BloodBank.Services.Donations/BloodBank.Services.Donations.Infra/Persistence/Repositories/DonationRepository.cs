@@ -29,7 +29,7 @@ public class DonationRepository : IDonationRepository
        return await _collection.Find(x => !x.IsDeleted).ToListAsync();
     }
 
-    public async Task<List<Donation>> GetByDonorIdAsync(int donorId)
+    public async Task<List<Donation>> GetByDonorIdAsync(Guid donorId)
     {
         var filter = Builders<Donation>.Filter.Eq(x => x.DonorId, donorId);
         return await _collection.Find(filter).ToListAsync();
