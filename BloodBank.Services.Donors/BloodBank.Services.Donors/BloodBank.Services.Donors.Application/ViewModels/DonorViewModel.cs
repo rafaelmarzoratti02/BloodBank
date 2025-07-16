@@ -6,8 +6,9 @@ namespace BloodBank.Services.Donors.Application.ViewModels;
 
 public class DonorViewModel
 {
-    public DonorViewModel(string fullname,string email,Gender gender, BloodType bloodType, RhFactor rhFactor)
+    public DonorViewModel(Guid id,string fullname,string email,Gender gender, BloodType bloodType, RhFactor rhFactor)
     {
+        Id = id;
         Fullname = fullname;
         Email = email;
         Gender = gender.ToString();
@@ -15,6 +16,7 @@ public class DonorViewModel
         RhFactor = rhFactor.ToString();
     }
 
+    public Guid Id { get; set; }
     public string Fullname { get; set; }
     public string Email { get; set; }
     public string Gender { get; set; }
@@ -22,7 +24,7 @@ public class DonorViewModel
     public string RhFactor { get; set; } 
     
     public static DonorViewModel FromEntity(Donor donor) {
-        return new DonorViewModel(donor.Fullname, donor.Email,donor.Gender, donor.BloodType, donor.RhFactor);
+        return new DonorViewModel(donor.Id,donor.Fullname, donor.Email,donor.Gender, donor.BloodType, donor.RhFactor);
     }
 
 }

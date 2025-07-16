@@ -16,16 +16,17 @@ public class DonationsController : ControllerBase
         _mediator = mediator;
     }
 
+    [HttpGet("{id}")]
     public async Task<IActionResult> GetById(Guid id)
     {
         var result = await _mediator.Send(new GetDonationById(id));
 
         if (!result.IsSucess) return BadRequest(result.Message);
 
-        return CreatedAtAction(nameof(GetById), new { Id = result.Data }, id);
-
+        return Ok(result);
     }
 
+    [HttpPost]
     public async Task<IActionResult> Post(AddDonation command)
     {
         var result = await _mediator.Send(command);

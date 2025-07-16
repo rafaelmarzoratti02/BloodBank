@@ -8,6 +8,12 @@ namespace BloodBank.Services.Donations.Application.ViewModels.IntegrationViewMod
 
 public class GetDonorByIdViewModel
 {
+    public GetDonorByIdViewModel(Guid id, string fullname)
+    {
+        Id = id;
+        Fullname = fullname;
+    }
+
     public Guid Id { get; set; }
     public string Fullname { get; set; }
 }

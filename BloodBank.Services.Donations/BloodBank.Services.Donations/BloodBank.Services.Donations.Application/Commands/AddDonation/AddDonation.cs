@@ -32,7 +32,7 @@ public class AddDonation : IRequest<ResultViewModel<Guid>>
             DonorId,
             DonationDate,
             QuantityMl,
-            new Donor(DonorId, Donor.FullName)
+            new Donor(Donor.FullName)
         );
     }
 }

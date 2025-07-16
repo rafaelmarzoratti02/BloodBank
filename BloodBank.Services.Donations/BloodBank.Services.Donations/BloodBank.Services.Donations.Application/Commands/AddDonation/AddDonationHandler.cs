@@ -4,6 +4,7 @@ using BloodBank.Services.Donations.Core.Entities;
 using BloodBank.Services.Donations.Core.Repositories;
 using MediatR;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,14 +34,16 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
 
         var stringResult = await result.Content.ReadAsStringAsync();
 
-        var donorViewModel = JsonConvert.DeserializeObject<GetDonorByIdViewModel>(stringResult);
+        var response = JsonConvert.DeserializeObject<JObject>(stringResult);
+
+        var donorViewModel = response["data"].ToObject<GetDonorByIdViewModel>();
 
         var donation = request.ToEntity();
 
         if(donation.Donor.FullName != donorViewModel.Fullname)
         {
-            //futuramente adicionar evento avisando
-            donation.Donor = new Donor(donorViewModel.Id, donorViewModel.Fullname);
+            //futuramente adicionar evento de update
+            donation.Donor = new Donor(donorViewModel.Fullname);
         }
 
         await _donationRepository.Add(donation);

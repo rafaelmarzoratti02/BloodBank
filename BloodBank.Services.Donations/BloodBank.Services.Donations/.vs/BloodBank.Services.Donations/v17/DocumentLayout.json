@@ -7,24 +7,40 @@
       "RelativeMoniker": "D:0:0:{046CE10C-2DB6-41C0-9B2F-B628DC60B4BA}|BloodBank.Services.Donations.API\\BloodBank.Services.Donations.API.csproj|solutionrelative:bloodbank.services.donations.api\\controllers\\donationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.core\\entities\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|solutionrelative:bloodbank.services.donations.core\\entities\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.application\\queries\\getdonationbyid\\getdonationbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|solutionrelative:bloodbank.services.donations.application\\queries\\getdonationbyid\\getdonationbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.application\\commands\\adddonation\\adddonationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|solutionrelative:bloodbank.services.donations.application\\commands\\adddonation\\adddonationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.application\\viewmodels\\integrationviewmodel\\getdonorbyidviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|solutionrelative:bloodbank.services.donations.application\\viewmodels\\integrationviewmodel\\getdonorbyidviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6261AD-E8FC-438F-B47A-EC02537A466B}|BloodBank.Services.Donations.Infra\\BloodBank.Services.Donations.Infra.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.infra\\persistence\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6261AD-E8FC-438F-B47A-EC02537A466B}|BloodBank.Services.Donations.Infra\\BloodBank.Services.Donations.Infra.csproj|solutionrelative:bloodbank.services.donations.infra\\persistence\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.application\\inputmodels\\donorinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|solutionrelative:bloodbank.services.donations.application\\inputmodels\\donorinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.core\\repositories\\idonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|solutionrelative:bloodbank.services.donations.core\\repositories\\idonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.application\\commands\\adddonation\\adddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|solutionrelative:bloodbank.services.donations.application\\commands\\adddonation\\adddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.core\\entities\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|solutionrelative:bloodbank.services.donations.core\\entities\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.core\\entities\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B7460-5329-4D95-9BC3-B9C78BCBE78B}|BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj|solutionrelative:bloodbank.services.donations.core\\entities\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.application\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30681C8-2719-4FBE-BC1C-B0FE1E104353}|BloodBank.Services.Donations.Application\\BloodBank.Services.Donations.Application.csproj|solutionrelative:bloodbank.services.donations.application\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046CE10C-2DB6-41C0-9B2F-B628DC60B4BA}|BloodBank.Services.Donations.API\\BloodBank.Services.Donations.API.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{046CE10C-2DB6-41C0-9B2F-B628DC60B4BA}|BloodBank.Services.Donations.API\\BloodBank.Services.Donations.API.csproj|solutionrelative:bloodbank.services.donations.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6261AD-E8FC-438F-B47A-EC02537A466B}|BloodBank.Services.Donations.Infra\\BloodBank.Services.Donations.Infra.csproj|c:\\users\\devztti\\source\\repos\\bloodbank\\bloodbank.services.donations\\bloodbank.services.donations\\bloodbank.services.donations.infra\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6261AD-E8FC-438F-B47A-EC02537A466B}|BloodBank.Services.Donations.Infra\\BloodBank.Services.Donations.Infra.csproj|solutionrelative:bloodbank.services.donations.infra\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +50,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetDonationByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
+              "RelativeToolTip": "BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:48:49.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\Entities\\Donor.cs",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Core\\Entities\\Donor.cs",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\Entities\\Donor.cs",
+              "RelativeToolTip": "BloodBank.Services.Donations.Core\\Entities\\Donor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:45:12.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonorInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\InputModels\\DonorInputModel.cs",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Application\\InputModels\\DonorInputModel.cs",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\InputModels\\DonorInputModel.cs",
+              "RelativeToolTip": "BloodBank.Services.Donations.Application\\InputModels\\DonorInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:25:15.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddDonation.cs",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonation.cs",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonation.cs",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonation.cs",
+              "RelativeToolTip": "BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonation.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:25:04.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Infra\\Extensions.cs",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Infra\\Extensions.cs",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Infra\\Extensions.cs",
+              "RelativeToolTip": "BloodBank.Services.Donations.Infra\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:21:21.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.API\\appsettings.json",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.API\\appsettings.json",
+              "RelativeToolTip": "BloodBank.Services.Donations.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T02:17:04.311Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,83 +146,49 @@
               "RelativeDocumentMoniker": "BloodBank.Services.Donations.API\\Controllers\\DonationsController.cs",
               "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.API\\Controllers\\DonationsController.cs",
               "RelativeToolTip": "BloodBank.Services.Donations.API\\Controllers\\DonationsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T02:14:12.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AggregateRoot.cs",
               "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\Entities\\AggregateRoot.cs",
               "RelativeDocumentMoniker": "BloodBank.Services.Donations.Core\\Entities\\AggregateRoot.cs",
               "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\Entities\\AggregateRoot.cs",
               "RelativeToolTip": "BloodBank.Services.Donations.Core\\Entities\\AggregateRoot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T02:12:58.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDonationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\Repositories\\IDonationRepository.cs",
-              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Core\\Repositories\\IDonationRepository.cs",
-              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\Repositories\\IDonationRepository.cs",
-              "RelativeToolTip": "BloodBank.Services.Donations.Core\\Repositories\\IDonationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T02:11:26.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DonationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Infra\\Persistence\\Repositories\\DonationRepository.cs",
-              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Infra\\Persistence\\Repositories\\DonationRepository.cs",
-              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Infra\\Persistence\\Repositories\\DonationRepository.cs",
-              "RelativeToolTip": "BloodBank.Services.Donations.Infra\\Persistence\\Repositories\\DonationRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T02:10:17.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddDonationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonationHandler.cs",
-              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonationHandler.cs",
-              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonationHandler.cs",
-              "RelativeToolTip": "BloodBank.Services.Donations.Application\\Commands\\AddDonation\\AddDonationHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T02:07:01.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetDonationByIdHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
-              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
-              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
-              "RelativeToolTip": "BloodBank.Services.Donations.Application\\Queries\\GetDonationById\\GetDonationByIdHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
+              "Title": "GetDonorByIdViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\ViewModels\\IntegrationViewModel\\GetDonorByIdViewModel.cs",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Application\\ViewModels\\IntegrationViewModel\\GetDonorByIdViewModel.cs",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\ViewModels\\IntegrationViewModel\\GetDonorByIdViewModel.cs",
+              "RelativeToolTip": "BloodBank.Services.Donations.Application\\ViewModels\\IntegrationViewModel\\GetDonorByIdViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T02:03:54.375Z",
+              "WhenOpened": "2025-07-16T02:32:31.49Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Extensions.cs",
+              "RelativeDocumentMoniker": "BloodBank.Services.Donations.Application\\Extensions.cs",
+              "ToolTip": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Application\\Extensions.cs",
+              "RelativeToolTip": "BloodBank.Services.Donations.Application\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:21:26.197Z",
+              "EditorCaption": ""
             }
           ]
         }

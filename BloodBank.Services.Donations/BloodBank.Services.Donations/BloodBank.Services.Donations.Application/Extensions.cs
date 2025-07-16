@@ -15,6 +15,7 @@ public static  class Extensions
 
     public static IServiceCollection AddHandlers(this IServiceCollection services)
     {
+        services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining<AddDonation>());
         return services;
     }
 

@@ -8,12 +8,10 @@ namespace BloodBank.Services.Donations.Core.Entities;
 
 public class Donor : BaseEntity
 {
-    public Donor(Guid id, string fullName)
+    public Donor(string fullName)
     {
-        Id = id;
         FullName = fullName;
     }
 
-    public Guid Id { get; private set; }
     public string FullName { get; private set; }
 }
