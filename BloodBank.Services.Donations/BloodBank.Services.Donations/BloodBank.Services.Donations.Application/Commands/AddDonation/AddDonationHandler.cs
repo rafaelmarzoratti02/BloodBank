@@ -2,6 +2,7 @@
 using BloodBank.Services.Donations.Application.ViewModels.IntegrationViewModel;
 using BloodBank.Services.Donations.Core.Entities;
 using BloodBank.Services.Donations.Core.Repositories;
+using BloodBank.Services.Donations.Infra.MessageBus;
 using MediatR;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -17,10 +18,12 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
 {
 
     private readonly IDonationRepository _donationRepository;
+    private readonly IMessageBusClient _messageBus;
 
-    public AddDonationHandler(IDonationRepository donationRepository)
+    public AddDonationHandler(IDonationRepository donationRepository, IMessageBusClient messageBus)
     {
         _donationRepository = donationRepository;
+        _messageBus = messageBus;
     }
 
     public async Task<ResultViewModel<Guid>> Handle(AddDonation request, CancellationToken cancellationToken)
@@ -44,6 +47,13 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
         {
             //futuramente adicionar evento de update
             donation.Donor = new Donor(donorViewModel.Fullname);
+        }
+
+        foreach (var @event in donation.Events)
+        {
+            var routingKey = @event.GetType().Name.ToDashCase();
+
+            await _messageBus.PublishAsync(@event, routingKey, "donation-service");
         }
 
         await _donationRepository.Add(donation);

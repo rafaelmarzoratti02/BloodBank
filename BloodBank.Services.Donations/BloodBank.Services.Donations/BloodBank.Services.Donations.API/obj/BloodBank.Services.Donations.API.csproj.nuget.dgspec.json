@@ -115,6 +115,9 @@
             "projectReferences": {
               "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj": {
                 "projectPath": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Core\\BloodBank.Services.Donations.Core.csproj"
+              },
+              "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Infra\\BloodBank.Services.Donations.Infra.csproj": {
+                "projectPath": "C:\\Users\\Devztti\\source\\repos\\BloodBank\\BloodBank.Services.Donations\\BloodBank.Services.Donations\\BloodBank.Services.Donations.Infra\\BloodBank.Services.Donations.Infra.csproj"
               }
             }
           }

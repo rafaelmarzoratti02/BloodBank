@@ -8,5 +8,5 @@ namespace BloodBank.Services.Donations.Infra.MessageBus;
 
 public interface IMessageBusClient
 {
-    public void Publish(object message, string routingKey, string exchange);
+    public Task PublishAsync(object message, string routingKey, string exchange);
 }
