@@ -1,4 +1,5 @@
 ﻿using BloodBank.Services.Donations.Core.Repositories;
+using BloodBank.Services.Donations.Infra.MessageBus;
 using BloodBank.Services.Donations.Infra.Persistence;
 using BloodBank.Services.Donations.Infra.Persistence.Repositories;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +8,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
+using RabbitMQ.Client;
 
 
 namespace BloodBank.Services.Donations.Infra;
@@ -47,6 +49,21 @@ public static class Extensions
     public static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IDonationRepository, DonationRepository>();
+
+        return services;
+    }
+
+    public static IServiceCollection AddMessageBus(this IServiceCollection services)
+    {
+        var connectionFactory = new ConnectionFactory
+        {
+            HostName = "localhost"
+        };
+
+        var connection = connectionFactory.CreateConnectionAsync("donations-service-producer");
+
+        services.AddSingleton(sp => new ProducerConnection(connection.Result));
+        services.AddSingleton<IMessageBusClient, RabbitMQClient>();
 
         return services;
     }

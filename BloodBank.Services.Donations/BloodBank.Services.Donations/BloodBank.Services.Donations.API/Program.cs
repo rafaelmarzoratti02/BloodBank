@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.
     AddMongo()
     .AddRepositories()
+    .AddMessageBus()
     .AddHandlers()
     .AddValidators();
 
@@ -31,8 +32,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
 
 app.MapControllers();
 

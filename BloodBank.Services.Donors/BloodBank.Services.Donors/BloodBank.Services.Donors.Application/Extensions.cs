@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using BloodBank.Services.Donors.Application.Commands;
+using BloodBank.Services.Donors.Subscribers;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -40,6 +41,12 @@ public static class Extensions
     public static IServiceCollection AddValidators(this IServiceCollection services)
     {
         services.AddFluentValidationAutoValidation().AddValidatorsFromAssemblyContaining<AddDonor>();
+        return services;
+    }
+    public static IServiceCollection AddSubscribers(this IServiceCollection services)
+    {
+        services.AddHostedService<DonationCreatedSubscriber>();
+
         return services;
     }
 }

@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\BloodBank.Services.Donations.Core\BloodBank.Services.Donations.Core.csproj" />
+      <ProjectReference Include="..\BloodBank.Services.Donations.Infra\BloodBank.Services.Donations.Infra.csproj" />
     </ItemGroup>
 
 </Project>
