@@ -28,8 +28,6 @@ public class RabbitMQClient : IMessageBusClient
         var payload = Newtonsoft.Json.JsonConvert.SerializeObject(message, settings);
         var body = Encoding.UTF8.GetBytes(payload);
 
-        await channel.ExchangeDeclareAsync(exchange, "topic", true);
-
         await channel.BasicPublishAsync(exchange, routingKey, body);
     }
 }

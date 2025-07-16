@@ -61,3 +61,13 @@ C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Serv
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\Devztti\source\repos\BloodBank\BloodBank.Services.Donors\BloodBank.Services.Donors\BloodBank.Services.Donors.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
