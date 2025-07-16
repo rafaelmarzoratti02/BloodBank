@@ -19,19 +19,19 @@ public class DonationRepository : IDonationRepository
         _collection = mongoDatabase.GetCollection<Donation>("donations");
     }
 
-    public async Task AddAsync(Donation donation)
+    public async Task Add(Donation donation)
     {
         await _collection.InsertOneAsync(donation);
     }
 
-    public async Task<List<Donation>> GetAsync()
+    public async Task<List<Donation>> Get()
     {
        return await _collection.Find(x => !x.IsDeleted).ToListAsync();
     }
 
-    public async Task<List<Donation>> GetByDonorIdAsync(Guid donorId)
+    public async Task<Donation> GetByDonorId(Guid id)
     {
-        var filter = Builders<Donation>.Filter.Eq(x => x.DonorId, donorId);
-        return await _collection.Find(filter).ToListAsync();
+        return await _collection.Find(x => x.Id == id && !x.IsDeleted).SingleOrDefaultAsync();
     }
+
 }

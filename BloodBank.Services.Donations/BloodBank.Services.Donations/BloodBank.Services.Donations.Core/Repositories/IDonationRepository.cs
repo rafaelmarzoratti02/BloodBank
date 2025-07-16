@@ -9,7 +9,7 @@ namespace BloodBank.Services.Donations.Core.Repositories;
 
 public interface IDonationRepository
 {
-    Task<List<Donation>> GetByDonorIdAsync(Guid donorId);
-    Task AddAsync(Donation donation);
-    Task <List<Donation>> GetAsync();
+    Task<Donation> GetByDonorId(Guid donorId);
+    Task Add(Donation donation);
+    Task <List<Donation>> Get();
 }

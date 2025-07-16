@@ -43,7 +43,7 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
             donation.Donor = new Donor(donorViewModel.Id, donorViewModel.Fullname);
         }
 
-        await _donationRepository.AddAsync(donation);
+        await _donationRepository.Add(donation);
 
         return ResultViewModel<Guid>.Sucess(donation.Id);
     }

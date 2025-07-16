@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\BloodBank.Services.Donations.Application\BloodBank.Services.Donations.Application.csproj" />
+    <ProjectReference Include="..\BloodBank.Services.Donations.Infra\BloodBank.Services.Donations.Infra.csproj" />
   </ItemGroup>
 
 </Project>
