@@ -15,6 +15,13 @@ public class AddDonorValidator : AbstractValidator<AddDonor>
         RuleFor(x => x.Birthdate)
             .Must(Utils.BeAtLeast18YearsOld)
             .WithMessage("Donor must be at least 18 years old");
-    }
 
+        RuleFor(x => x.Email)
+            .EmailAddress()
+            .WithMessage("Invalid email format");
+
+        RuleFor(x => x.Address.ZipCode)
+            .Length(8)
+            .WithMessage("Zipcode must be 8 characters long");
+    }
 }
