@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Ocelot.Middleware;
+using BloodBank.Services.ApiGateway;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,14 +23,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-
 builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
 
-builder.Services.AddOcelot();
+builder.Services.AddOcelot().AddDelegatingHandler<AddHeadersHandler>();
 
 var app = builder.Build();
 
 app.UseAuthentication();
-await app.UseOcelot();
+app.UseOcelot().Wait();
 
 app.Run();

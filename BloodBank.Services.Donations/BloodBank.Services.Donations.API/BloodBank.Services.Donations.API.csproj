@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>BloodBank.Services.Donations</RootNamespace>
+    <UserSecretsId>2ff8a2ab-9918-4222-b4d3-5c01faf5a630</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

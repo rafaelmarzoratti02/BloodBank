@@ -1,5 +1,6 @@
 ﻿using BloodBank.Services.Donors.Application;
 using BloodBank.Services.Donors.Infra;
+using BloodBank.Services.Donors.Middleware;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
 
@@ -61,6 +62,8 @@ builder.Services.AddCors(options =>
 });
 var app = builder.Build();
 
+app.UseMiddleware<InternalAuthMiddleware>();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -72,9 +75,6 @@ app.UseCors("AllowReactApp");
 app.UseExceptionHandler();
 
 app.UseHttpsRedirection();
-
-app.UseAuthentication();
-app.UseAuthorization();
 
 app.MapControllers();
 

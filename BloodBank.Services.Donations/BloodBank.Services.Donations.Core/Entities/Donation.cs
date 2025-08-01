@@ -9,17 +9,15 @@ namespace BloodBank.Services.Donations.Core.Entities;
 
 public class Donation : AggregateRoot
 {
-    public Donation(Guid donorId, DateTime donationDate, int quantityMl, Donor donor)
+    public Donation(Guid donorId, DateTime donationDate, int quantityMl)
     {
         DonorId = donorId;
         DonationDate = donationDate;
         QuantityMl = quantityMl;
-        Donor = donor;
-        AddEvent(new DonationCreated(Id, donor.FullName));
+        AddEvent(new DonationCreated(Id));
     }
 
     public Guid DonorId { get; set; }
     public DateTime DonationDate { get; set; }
     public int QuantityMl { get; set; }
-    public Donor Donor { get; set; }
 }

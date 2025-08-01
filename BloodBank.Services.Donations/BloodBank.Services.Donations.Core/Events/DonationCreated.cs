@@ -8,14 +8,12 @@ namespace BloodBank.Services.Donations.Core.Events;
 
 public class DonationCreated :IDomainEvent
 {
-   public DonationCreated(Guid id, string fullname)
+   public DonationCreated(Guid id)
     {
         Id = id;
-        DonorFullname = fullname;
 
     }
 
     public Guid Id { get; set; }
-    public string DonorFullname { get; set; }
 }
 

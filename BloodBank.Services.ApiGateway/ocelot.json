@@ -1,64 +1,69 @@
 {
-  "Routes": [
-    {
-      "DownstreamPathTemplate": "/api/users/login",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 7032
-        }
-      ],
-      "UpstreamPathTemplate": "/users/login",
-      "UpstreamHttpMethod": [ "PUT" ],  
-      "Timeout": 30000
-    },
+ "Routes": [
+   {
+     "DownstreamPathTemplate": "/api/users/login",
+     "DownstreamScheme": "https",
+     "DownstreamHostAndPorts": [
+       {
+         "Host": "localhost",
+         "Port": 7032
+       }
+     ],
+     "UpstreamPathTemplate": "/users/login",
+     "UpstreamHttpMethod": [ "PUT" ],  
+       "DelegatingHandlers": ["AddHeadersHandler"],
+     "Timeout": 30000
+   },
 
-    {
-      "DownstreamPathTemplate": "/api/users/{everything}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 7032
-        }
-      ],
-      "UpstreamPathTemplate": "/users/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-      "Timeout": 30000
-    },
-    {
-      "DownstreamPathTemplate": "/api/donors/{everything}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 7032
-        }
-      ],
-      "UpstreamPathTemplate": "/donors/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-      "AuthenticationOptions": "Bearer",
-      "Timeout": 30000
-    },
-    {
-      "DownstreamPathTemplate": "/api/donations/{everything}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 7219
-        }
-      ],
-      "UpstreamPathTemplate": "/donations/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer" 
-      },
-      "Timeout": 30000
-    }
-  ],
-  "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5102"  
-  }
+   {
+     "DownstreamPathTemplate": "/api/users/{everything}",
+     "DownstreamScheme": "https",
+     "DownstreamHostAndPorts": [
+       {
+         "Host": "localhost",
+         "Port": 7032
+       }
+     ],
+     "UpstreamPathTemplate": "/users/{everything}",
+     "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+     "Timeout": 30000
+   },
+   {
+     "DownstreamPathTemplate": "/api/donors/{everything}",
+     "DownstreamScheme": "https",
+     "DownstreamHostAndPorts": [
+       {
+         "Host": "localhost",
+         "Port": 7032
+       }
+     ],
+     "UpstreamPathTemplate": "/donors/{everything}",
+     "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+     "AuthenticationOptions": {
+       "AuthenticationProviderKey": "Bearer"
+     },
+    "DelegatingHandlers": ["AddHeadersHandler"],
+     "Timeout": 30000
+   },
+   {
+     "DownstreamPathTemplate": "/api/donations/{everything}",
+     "DownstreamScheme": "https",
+     "DownstreamHostAndPorts": [
+       {
+         "Host": "localhost",
+         "Port": 7219
+       }
+     ],
+     "UpstreamPathTemplate": "/donations/{everything}",
+     "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+     "AuthenticationOptions": {
+       "AuthenticationProviderKey": "Bearer" 
+     },
+      "DelegatingHandlers": ["AddHeadersHandler"],
+     "Timeout": 30000
+   }
+ ],
+ "GlobalConfiguration": {
+   "BaseUrl": "http://localhost:5102"  
+ }
 }
