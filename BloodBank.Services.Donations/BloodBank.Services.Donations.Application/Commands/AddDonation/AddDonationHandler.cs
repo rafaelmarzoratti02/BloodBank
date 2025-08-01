@@ -37,9 +37,10 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
 
     public async Task<ResultViewModel<Guid>> Handle(AddDonation request, CancellationToken cancellationToken)
     {
+        var exists = await DonorExists(request.DonorId);
 
-        var donor = await GetDonor(request.DonorId);
-
+        if(!exists) return ResultViewModel<Guid>.Error("Donor not found");
+        
         var donation = request.ToEntity();
 
         foreach (var @event in donation.Events)
@@ -50,11 +51,11 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
         }
 
         await _donationRepository.Add(donation);
-
+        
         return ResultViewModel<Guid>.Sucess(donation.Id);
     }
 
-    public async Task<GetDonorByIdViewModel> GetDonor(Guid id)
+    public async Task<bool> DonorExists(Guid id)
     {
         var request = new HttpRequestMessage(HttpMethod.Get,
             $"{_configuration["GatewayBaseUrl"]}/donors/{id}");
@@ -77,7 +78,7 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
         var response = JsonConvert.DeserializeObject<JObject>(stringResult);
 
         var donorViewModel = response["data"].ToObject<GetDonorByIdViewModel>();
-       
-        return donorViewModel;
+
+        return donorViewModel != null;
     }
 }
