@@ -13,7 +13,6 @@ namespace BloodBank.Services.Donors.Controllers;
 
 [ApiController]
 [Route("api/users")]
-[Authorize]
 public class UsersController : ControllerBase
 {
 
@@ -25,7 +24,6 @@ public class UsersController : ControllerBase
     }
 
     [HttpPost]
-    [AllowAnonymous]
     public async  Task<IActionResult> Post(AddUser command)
     {
        var result = await _mediator.Send(command);
@@ -49,7 +47,6 @@ public class UsersController : ControllerBase
     }
 
     [HttpPut("login")]
-    [AllowAnonymous]
     public async Task<IActionResult> Login(LoginCommand command)
     {
         var result = await _mediator.Send(command);

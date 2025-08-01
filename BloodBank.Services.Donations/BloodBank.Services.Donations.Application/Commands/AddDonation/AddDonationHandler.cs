@@ -4,11 +4,14 @@ using BloodBank.Services.Donations.Core.Entities;
 using BloodBank.Services.Donations.Core.Repositories;
 using BloodBank.Services.Donations.Infra.MessageBus;
 using MediatR;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,35 +22,25 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
 
     private readonly IDonationRepository _donationRepository;
     private readonly IMessageBusClient _messageBus;
+    private readonly IConfiguration _configuration;
+    private readonly HttpClient _httpClient;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public AddDonationHandler(IDonationRepository donationRepository, IMessageBusClient messageBus)
+    public AddDonationHandler(IDonationRepository donationRepository, IMessageBusClient messageBus, IConfiguration configuration, HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
     {
         _donationRepository = donationRepository;
         _messageBus = messageBus;
+        _configuration = configuration;
+        _httpClient = httpClient;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     public async Task<ResultViewModel<Guid>> Handle(AddDonation request, CancellationToken cancellationToken)
     {
 
-        var httpClient = new HttpClient();
-
-        var result = await httpClient.GetAsync($"https://localhost:7032/api/donors/{request.DonorId}");
-
-        if(!result.IsSuccessStatusCode) return ResultViewModel<Guid>.Error("Donor not found");
-
-        var stringResult = await result.Content.ReadAsStringAsync();
-
-        var response = JsonConvert.DeserializeObject<JObject>(stringResult);
-
-        var donorViewModel = response["data"].ToObject<GetDonorByIdViewModel>();
+        var donor = await GetDonor(request.DonorId);
 
         var donation = request.ToEntity();
-
-        if(donation.Donor.FullName != donorViewModel.Fullname)
-        {
-            //futuramente adicionar evento de update
-            donation.Donor = new Donor(donorViewModel.Fullname);
-        }
 
         foreach (var @event in donation.Events)
         {
@@ -59,5 +52,32 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
         await _donationRepository.Add(donation);
 
         return ResultViewModel<Guid>.Sucess(donation.Id);
+    }
+
+    public async Task<GetDonorByIdViewModel> GetDonor(Guid id)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get,
+            $"{_configuration["GatewayBaseUrl"]}/donors/{id}");
+
+        //request.Headers.Add("X-Gateway-Token", _configuration["InternalService:Token"]);
+
+        var jwtToken = _httpContextAccessor.HttpContext?.Request.Headers["Authorization"].ToString();
+
+        request.Headers.Add("Authorization", jwtToken);
+
+        var result = await _httpClient.SendAsync(request);
+
+        if (!result.IsSuccessStatusCode)
+        {
+            throw new Exception("Donor not found");
+        }
+
+        var stringResult = await result.Content.ReadAsStringAsync();
+
+        var response = JsonConvert.DeserializeObject<JObject>(stringResult);
+
+        var donorViewModel = response["data"].ToObject<GetDonorByIdViewModel>();
+       
+        return donorViewModel;
     }
 }

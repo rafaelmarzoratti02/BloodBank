@@ -13,26 +13,24 @@ namespace BloodBank.Services.Donations.Application.Commands.AddDonation;
 
 public class AddDonation : IRequest<ResultViewModel<Guid>>
 {
-    public AddDonation(Guid donorId, DateTime donationDate, int quantityMl, DonorInputModel donor)
+    public AddDonation(Guid donorId, DateTime donationDate, int quantityMl)
     {
         DonorId = donorId;
         DonationDate = donationDate;
         QuantityMl = quantityMl;
-        Donor = donor;
+
     }
 
     public Guid DonorId { get; set; }
     public DateTime DonationDate { get; set; }
     public int QuantityMl { get; set; }
-    public DonorInputModel Donor { get; set; }
 
     public Donation ToEntity()
     {
         return new Donation(
             DonorId,
             DonationDate,
-            QuantityMl,
-            new Donor(Donor.FullName)
+            QuantityMl
         );
     }
 }

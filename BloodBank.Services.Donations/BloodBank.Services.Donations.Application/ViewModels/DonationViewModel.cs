@@ -10,22 +10,22 @@ namespace BloodBank.Services.Donations.Application.ViewModels;
 
 public class DonationViewModel
 {
-    public DonationViewModel(Guid donorId, DateTime donationDate, int quantityMl, string donor)
+    public DonationViewModel(Guid id,Guid donorId, DateTime donationDate, int quantityMl)
     {
+        Id = id;
         DonorId = donorId;
         DonationDate = donationDate;
         QuantityMl = quantityMl;
-        DonorFullname = donor;
     }
 
+    public Guid Id { get; set; }
     public Guid DonorId { get; set; }
     public DateTime DonationDate { get; set; }
     public int QuantityMl { get; set; }
-    public string DonorFullname { get; set; }
 
     public static DonationViewModel FromEntity(Donation donation)
     {
-        return new DonationViewModel(donation.Id, donation.DonationDate, donation.QuantityMl, donation.Donor.FullName);
+        return new DonationViewModel(donation.Id,donation.DonorId, donation.DonationDate, donation.QuantityMl);
     }
 
 }
