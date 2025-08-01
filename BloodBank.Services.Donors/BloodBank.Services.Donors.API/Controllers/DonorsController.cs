@@ -2,6 +2,7 @@
 using BloodBank.Services.Donors.Application.Queries.Donor;
 using BloodBank.Services.Donors.Application.ViewModels;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
