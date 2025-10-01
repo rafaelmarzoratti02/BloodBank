@@ -17,7 +17,6 @@ builder.Services
     .AddRepositories()
     .AddValidators()
     .AddHandlers()
-    .AddSubscribers()
     .AddAuth(builder.Configuration);
 
 builder.Services.AddControllers();
@@ -52,14 +51,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 
 });
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowReactApp",
-        builder => builder
-            .WithOrigins("http://localhost:3000") 
-            .AllowAnyMethod()
-            .AllowAnyHeader());
-});
+
 var app = builder.Build();
 
 app.UseMiddleware<InternalAuthMiddleware>();
