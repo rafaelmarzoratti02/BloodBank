@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace BloodBank.Services.Inventory.Controllers
+namespace BloodBank.Services.Inventory.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

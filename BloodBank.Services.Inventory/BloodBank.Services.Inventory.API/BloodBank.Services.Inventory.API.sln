@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Services.Inventory", "BloodBank.Services.Inventory.csproj", "{2B8388EE-9DC2-4A36-9436-E98058641A12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Services.Inventory.API", "BloodBank.Services.Inventory.API.csproj", "{20BE8C7B-DCD5-4F7E-B756-D0D4BF7A52DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2B8388EE-9DC2-4A36-9436-E98058641A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B8388EE-9DC2-4A36-9436-E98058641A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B8388EE-9DC2-4A36-9436-E98058641A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B8388EE-9DC2-4A36-9436-E98058641A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BE8C7B-DCD5-4F7E-B756-D0D4BF7A52DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BE8C7B-DCD5-4F7E-B756-D0D4BF7A52DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BE8C7B-DCD5-4F7E-B756-D0D4BF7A52DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BE8C7B-DCD5-4F7E-B756-D0D4BF7A52DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2CB13185-3A08-4FFB-9D40-E67616D01A18}
+		SolutionGuid = {FC51AAAF-5DD0-4B89-BD11-BF3AE83EF737}
 	EndGlobalSection
 EndGlobal
