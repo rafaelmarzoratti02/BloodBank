@@ -21,15 +21,13 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
 {
 
     private readonly IDonationRepository _donationRepository;
-    private readonly IMessageBusClient _messageBus;
     private readonly IConfiguration _configuration;
     private readonly HttpClient _httpClient;
     private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public AddDonationHandler(IDonationRepository donationRepository, IMessageBusClient messageBus, IConfiguration configuration, HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
+    public AddDonationHandler(IDonationRepository donationRepository, IConfiguration configuration, HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
     {
         _donationRepository = donationRepository;
-        _messageBus = messageBus;
         _configuration = configuration;
         _httpClient = httpClient;
         _httpContextAccessor = httpContextAccessor;
@@ -47,7 +45,7 @@ public class AddDonationHandler : IRequestHandler<AddDonation, ResultViewModel<G
         {
             var routingKey = @event.GetType().Name.ToDashCase();
 
-            await _messageBus.PublishAsync(@event, routingKey, "donation-service");
+            Console.WriteLine("Donation completed");
         }
 
         await _donationRepository.Add(donation);

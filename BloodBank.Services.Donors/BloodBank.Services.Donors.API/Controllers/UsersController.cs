@@ -24,13 +24,13 @@ public class UsersController : ControllerBase
     }
 
     [HttpPost]
-    public async  Task<IActionResult> Post(AddUser command)
+    public async Task<IActionResult> Post(AddUser command)
     {
        var result = await _mediator.Send(command);
 
         if (!result.IsSucess) return BadRequest(result);
 
-        return CreatedAtAction(nameof(GetById), new { id = result.Data }, result);
+        return CreatedAtAction(nameof(GetById), new { id = result.Data }, command);
     }
 
     [HttpGet("{id}")]

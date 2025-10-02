@@ -53,18 +53,18 @@ public static class Extensions
         return services;
     }
 
-    public static IServiceCollection AddMessageBus(this IServiceCollection services)
-    {
-        var connectionFactory = new ConnectionFactory
-        {
-            HostName = "localhost"
-        };
+    //public static IServiceCollection AddMessageBus(this IServiceCollection services)
+    //{
+    //    var connectionFactory = new ConnectionFactory
+    //    {
+    //        HostName = "localhost"
+    //    };
 
-        var connection = connectionFactory.CreateConnectionAsync("donations-service-producer");
+    //    var connection = connectionFactory.CreateConnectionAsync("donations-service-producer");
 
-        services.AddSingleton(sp => new ProducerConnection(connection.Result));
-        services.AddSingleton<IMessageBusClient, RabbitMQClient>();
+    //    services.AddSingleton(sp => new ProducerConnection(connection.Result));
+    //    services.AddSingleton<IMessageBusClient, RabbitMQClient>();
 
-        return services;
-    }
+    //    return services;
+    //}
 }
