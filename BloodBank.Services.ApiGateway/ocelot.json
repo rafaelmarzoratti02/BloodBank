@@ -15,19 +15,23 @@
      "Timeout": 30000
    },
 
-   {
-     "DownstreamPathTemplate": "/api/users/{everything}",
-     "DownstreamScheme": "https",
-     "DownstreamHostAndPorts": [
-       {
-         "Host": "localhost",
-         "Port": 7032
-       }
-     ],
-     "UpstreamPathTemplate": "/users/{everything}",
-     "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-     "Timeout": 30000
-   },
+  {
+    "DownstreamPathTemplate": "/api/users/{everything}",
+    "DownstreamScheme": "https",
+    "DownstreamHostAndPorts": [
+      {
+        "Host": "localhost",
+        "Port": 7032
+      }
+    ],
+    "UpstreamPathTemplate": "/users/{everything}",
+    "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+    "AuthenticationOptions": {
+      "AuthenticationProviderKey": "Bearer"
+    },
+    "DelegatingHandlers": [ "AddHeadersHandler" ],
+    "Timeout": 30000
+  },
    {
      "DownstreamPathTemplate": "/api/donors/{everything}",
      "DownstreamScheme": "https",

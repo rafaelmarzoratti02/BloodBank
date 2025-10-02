@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.
     AddMongo()
     .AddRepositories()
-    .AddMessageBus()
+    //.AddMessageBus()
     .AddHandlers()
     .AddValidators();
 

@@ -7,6 +7,9 @@ using BloodBank.Services.ApiGateway;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddHttpContextAccessor();
+
+// Configuração JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer("Bearer", options =>
     {
@@ -19,17 +22,22 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
+            ClockSkew = TimeSpan.Zero 
         };
     });
 
-builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+builder.Services.AddAuthorization();
 
-builder.Services.AddOcelot().AddDelegatingHandler<AddHeadersHandler>();
+builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+builder.Services.AddOcelot()
+    .AddDelegatingHandler<AddHeadersHandler>(global: true); 
 
 var app = builder.Build();
 
 app.UseAuthentication();
-app.UseOcelot().Wait();
+app.UseAuthorization();  
+
+await app.UseOcelot();
 
 app.Run();
